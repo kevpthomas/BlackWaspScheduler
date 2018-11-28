@@ -137,9 +137,13 @@ _TeamCity*
 *.coveragexml
 
 # NCrunch
+globalconfig.crunch.v3.xml
+_NCrunch_*\*.*
 _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
+*.ncrunchsolution.user
+*.v3.ncrunchsolution.user
 
 # MightyMoose
 *.mm.*
