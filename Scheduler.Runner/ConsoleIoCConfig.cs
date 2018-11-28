@@ -12,8 +12,7 @@ namespace Scheduler.Runner
         {
             var path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             AssemblyLoadContext.Default.LoadFromAssemblyPath(Path.Combine(path, "Scheduler.Infrastructure.dll"));
-            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
-            return assemblies;
+            return AppDomain.CurrentDomain.GetAssemblies();
         });
 
         protected override Assembly[] IocAssemblies => _iocAssemblies.Value;
