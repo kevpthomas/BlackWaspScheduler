@@ -4,7 +4,7 @@ using Shouldly;
 using Xbehave;
 using Xunit;
 
-namespace UnitTests
+namespace UnitTests.Core
 {
     public class PeriodTests : UnitTestBase
     {

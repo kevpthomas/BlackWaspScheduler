@@ -11,7 +11,7 @@ namespace Scheduler.Core
  
         public override bool OccursOnDate(DateTime date)
         {
-            return Date.Date == date;
+            return Date.Date == date.Date;
         }
     }
 }

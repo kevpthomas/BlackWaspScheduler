@@ -4,6 +4,6 @@ namespace Scheduler.Core
 {
     public interface ICalendarGenerator
     {
-        IEnumerable<Appointment> GenerateCalendar(Period period, IEnumerable<Schedule> schedules);
+        IEnumerable<Appointment> GenerateCalendar(Period period, IEnumerable<ISchedule> schedules);
     }
 }

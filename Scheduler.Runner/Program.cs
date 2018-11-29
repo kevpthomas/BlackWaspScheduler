@@ -27,7 +27,7 @@ namespace Scheduler.Runner
                 Date = new DateTime(2012, 5, 12)
             };
  
-            var schedules = new List<Schedule> { single1, single2 };
+            var schedules = new List<ISchedule> { single1, single2 };
 
             var generator = TinyIoCContainer.Current.Resolve<ICalendarGenerator>();
             var period = new Period(new DateTime(2012, 5, 1), new DateTime(2012, 6, 30));

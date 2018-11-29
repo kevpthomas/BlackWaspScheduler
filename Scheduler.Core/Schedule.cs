@@ -8,7 +8,7 @@ namespace Scheduler.Core
     /// TimeOfDay is set to the time of the appointment; each appointment may only occur once per day.
     /// Name specifies a name for the appointment. This would be useful if using the scheduling library to create calendars. 
     /// </summary>
-    public abstract class Schedule
+    public abstract class Schedule : ISchedule
     {
         public TimeSpan TimeOfDay { get; set; }
  

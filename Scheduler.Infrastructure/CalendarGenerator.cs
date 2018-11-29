@@ -11,7 +11,7 @@ namespace Scheduler.Infrastructure
     public class CalendarGenerator : ICalendarGenerator
     {
         public IEnumerable<Appointment> GenerateCalendar(
-            Period period, IEnumerable<Schedule> schedules)
+            Period period, IEnumerable<ISchedule> schedules)
         {
             var scheduleList = schedules.ToList();
 
@@ -26,7 +26,7 @@ namespace Scheduler.Infrastructure
         }
 
         private static void AddAppointmentsForDate(
-            DateTime checkDate, IEnumerable<Schedule> schedules, ICollection<Appointment> appointments)
+            DateTime checkDate, IEnumerable<ISchedule> schedules, ICollection<Appointment> appointments)
         {
             foreach (var schedule in schedules)
             {
@@ -37,7 +37,7 @@ namespace Scheduler.Infrastructure
             }
         }
 
-        private static Appointment GenerateAppointment(DateTime checkDate, Schedule schedule)
+        private static Appointment GenerateAppointment(DateTime checkDate, ISchedule schedule)
         {
             return new Appointment
             {
