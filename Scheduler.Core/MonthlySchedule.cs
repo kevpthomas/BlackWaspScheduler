@@ -10,7 +10,7 @@ namespace Scheduler.Core
     {
         //TODO: unit tests for MonthlySchedule
 
-        public int DayOfMonth { get; set; }
+        public DayOfMonth DayOfMonth { get; set; }
  
         public override bool OccursOnDate(DateTime date)
         {

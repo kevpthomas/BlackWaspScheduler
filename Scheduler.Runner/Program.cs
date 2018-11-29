@@ -41,14 +41,13 @@ namespace Scheduler.Runner
                 TimeOfDay = new TimeOfDay(8, 0),
                 SchedulingRange = new Period(new DateTime(2012, 5, 28), new DateTime(2012, 6, 8))
             };
-            weekly.SetDays(
-                new DayOfWeek[] { DayOfWeek.Monday, DayOfWeek.Wednesday, DayOfWeek.Friday });
+            weekly.SetDays(new[] { DayOfWeek.Monday, DayOfWeek.Wednesday, DayOfWeek.Friday });
  
             var monthly = new MonthlySchedule
             {
                 Name = "Check Wages",
                 TimeOfDay = new TimeOfDay(18, 0),
-                DayOfMonth = 31,
+                DayOfMonth = new DayOfMonth(31),
                 SchedulingRange = new Period(new DateTime(2012, 1, 2), new DateTime(2100, 1, 1))
             };
 
