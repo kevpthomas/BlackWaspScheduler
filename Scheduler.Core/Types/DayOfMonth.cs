@@ -34,5 +34,10 @@ namespace Scheduler.Core.Types
         {
             return new DayOfMonth(value);
         }
+
+        public static explicit operator DayOfMonth(int value)
+        {
+            return new DayOfMonth((uint)value);
+        }
     }
 }

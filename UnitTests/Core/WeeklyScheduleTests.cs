@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Scheduler.Core;
 using Scheduler.Core.Entities;
 using Shouldly;
 using Xbehave;
@@ -48,7 +47,7 @@ namespace UnitTests.Core
         {
             days = new List<DayOfWeek>();
 
-            "Given a date on the schedule date"
+            "Given a date during the weekly schedule period"
                 .x(() =>
                 {
                     date = Faker.Date.Soon().Date;
@@ -74,7 +73,7 @@ namespace UnitTests.Core
         {
             days = new List<DayOfWeek>();
 
-            "Given a date on the schedule date"
+            "Given a date during the weekly schedule period"
                 .x(() =>
                 {
                     date = Faker.Date.Soon().Date;

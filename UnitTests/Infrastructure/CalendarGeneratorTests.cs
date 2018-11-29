@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Moq;
-using Scheduler.Core;
 using Scheduler.Core.Entities;
 using Scheduler.Core.Interfaces;
 using Scheduler.Core.Types;

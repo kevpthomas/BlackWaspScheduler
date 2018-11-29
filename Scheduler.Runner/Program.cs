@@ -50,7 +50,7 @@ namespace Scheduler.Runner
             {
                 Name = "Check Wages",
                 TimeOfDay = new TimeOfDay(18, 0),
-                DayOfMonth = new DayOfMonth(31),
+                DayOfMonth = (DayOfMonth)31,
                 SchedulingRange = new Period(new DateTime(2012, 1, 2), new DateTime(2100, 1, 1))
             };
 

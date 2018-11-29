@@ -9,8 +9,6 @@ namespace Scheduler.Core.Entities
     /// </summary>
     public class MonthlySchedule : RepeatingSchedule
     {
-        //TODO: unit tests for MonthlySchedule
-
         public DayOfMonth DayOfMonth { get; set; }
  
         public override bool OccursOnDate(DateTime date)

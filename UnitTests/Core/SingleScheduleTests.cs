@@ -1,5 +1,4 @@
 ﻿using System;
-using Scheduler.Core;
 using Scheduler.Core.Entities;
 using Shouldly;
 using Xbehave;
