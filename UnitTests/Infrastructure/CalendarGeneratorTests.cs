@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Moq;
 using Scheduler.Core;
@@ -11,9 +10,9 @@ namespace UnitTests.Infrastructure
 {
     public class CalendarGeneratorTests : UnitTestBase<CalendarGenerator>
     {
-        private TimeSpan CreateTimeOfDay()
+        private TimeOfDay CreateTimeOfDay()
         {
-            return new TimeSpan(Faker.Random.Int(0, 23), Faker.Random.Int(0, 59), 0);
+            return new TimeOfDay(Faker.Random.UInt(0, 23), Faker.Random.UInt(0, 59));
         }
 
         [Scenario]

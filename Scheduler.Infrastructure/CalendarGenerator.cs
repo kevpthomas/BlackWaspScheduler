@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Ardalis.GuardClauses;
 using Scheduler.Core;
 
 namespace Scheduler.Infrastructure
@@ -13,6 +14,8 @@ namespace Scheduler.Infrastructure
         public IEnumerable<Appointment> GenerateCalendar(
             Period period, IEnumerable<ISchedule> schedules)
         {
+            Guard.Against.Null(period, nameof(period));
+
             var scheduleList = schedules.ToList();
 
             var appointments = new List<Appointment>();

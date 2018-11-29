@@ -1,4 +1,5 @@
 ﻿using System;
+using Ardalis.GuardClauses;
 
 namespace Scheduler.Core
 {
@@ -15,10 +16,8 @@ namespace Scheduler.Core
         {
             Start = start.Date;
             End = end.Date;
- 
-            if (Start > End)
-            {
-                throw new ArgumentException("The start date may not be after the end date.");
-            }
+
+            Guard.Against.StartAfterEnd(Start, End);
         }
-    }}
+    }
+}

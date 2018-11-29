@@ -10,7 +10,7 @@ namespace Scheduler.Core
     /// </summary>
     public abstract class Schedule : ISchedule
     {
-        public TimeSpan TimeOfDay { get; set; }
+        public TimeOfDay TimeOfDay { get; set; }
  
         public string Name { get; set; }
  
