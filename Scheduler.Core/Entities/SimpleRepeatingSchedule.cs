@@ -9,8 +9,6 @@ namespace Scheduler.Core.Entities
     /// </summary>
     public class SimpleRepeatingSchedule : RepeatingSchedule
     {
-        //TODO: unit tests for SimpleRepeatingSchedule
-
         private uint _daysBetween;
  
         public uint DaysBetween
