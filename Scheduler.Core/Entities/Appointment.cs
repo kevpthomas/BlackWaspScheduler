@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Entities
 {
     /// <summary>
     /// The Appointment class holds information about generated appointments and does not add any functionality.

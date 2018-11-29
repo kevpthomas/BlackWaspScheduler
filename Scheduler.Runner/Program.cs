@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Scheduler.Core;
+using Scheduler.Core.Entities;
+using Scheduler.Core.Interfaces;
+using Scheduler.Core.Types;
 using TinyIoC;
 
 namespace Scheduler.Runner

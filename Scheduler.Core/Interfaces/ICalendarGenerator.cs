@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Scheduler.Core.Entities;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Interfaces
 {
     public interface ICalendarGenerator
     {

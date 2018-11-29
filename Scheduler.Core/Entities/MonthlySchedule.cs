@@ -1,6 +1,7 @@
 ﻿using System;
+using Scheduler.Core.Types;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Entities
 {
     /// <summary>
     /// Schedule for a pattern of appointments that occur on the same date of every month.

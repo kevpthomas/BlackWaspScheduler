@@ -1,7 +1,7 @@
 ﻿using System;
 using Ardalis.GuardClauses;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Entities
 {
     /// <summary>
     /// Schedule for recurring appointments that start on a given date and repeat every few days.

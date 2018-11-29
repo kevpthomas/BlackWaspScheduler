@@ -1,5 +1,6 @@
 ﻿using System;
 using Scheduler.Core;
+using Scheduler.Core.Interfaces;
 
 namespace Scheduler.Infrastructure
 {

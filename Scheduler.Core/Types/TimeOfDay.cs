@@ -1,7 +1,7 @@
 ﻿using System;
 using Ardalis.GuardClauses;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Types
 {
     /// <summary>
     /// Represents the time of day for a schedule item.

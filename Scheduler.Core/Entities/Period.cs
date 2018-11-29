@@ -1,7 +1,7 @@
 ﻿using System;
 using Ardalis.GuardClauses;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Entities
 {
     /// <summary>
     /// Represents a period of time, starting on one date and finishing on another. Periods do not include time elements.

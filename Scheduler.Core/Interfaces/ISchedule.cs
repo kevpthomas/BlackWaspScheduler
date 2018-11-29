@@ -1,6 +1,7 @@
 ﻿using System;
+using Scheduler.Core.Types;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Interfaces
 {
     public interface ISchedule
     {

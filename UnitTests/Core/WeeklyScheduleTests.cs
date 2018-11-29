@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Scheduler.Core;
+using Scheduler.Core.Entities;
 using Shouldly;
 using Xbehave;
 

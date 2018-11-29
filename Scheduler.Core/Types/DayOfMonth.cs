@@ -1,6 +1,6 @@
 ﻿using Ardalis.GuardClauses;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Types
 {
     /// <summary>
     /// Represents the day of month for a schedule item.

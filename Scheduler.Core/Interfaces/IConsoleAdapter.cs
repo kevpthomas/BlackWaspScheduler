@@ -1,4 +1,4 @@
-﻿namespace Scheduler.Core
+﻿namespace Scheduler.Core.Interfaces
 {
     public interface IConsoleAdapter
     {

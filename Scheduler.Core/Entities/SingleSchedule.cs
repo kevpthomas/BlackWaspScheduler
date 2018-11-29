@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Entities
 {
     /// <summary>
     /// Schedule for a single appointment at a given date and time.

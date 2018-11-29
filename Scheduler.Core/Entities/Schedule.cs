@@ -1,6 +1,8 @@
 ﻿using System;
+using Scheduler.Core.Interfaces;
+using Scheduler.Core.Types;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Entities
 {
     /// <summary>
     /// The Schedule class is the base class for all types that implement scheduling rules.

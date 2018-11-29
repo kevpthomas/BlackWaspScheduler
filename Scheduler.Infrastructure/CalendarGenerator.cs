@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Ardalis.GuardClauses;
 using Scheduler.Core;
+using Scheduler.Core.Entities;
+using Scheduler.Core.Interfaces;
 
 namespace Scheduler.Infrastructure
 {

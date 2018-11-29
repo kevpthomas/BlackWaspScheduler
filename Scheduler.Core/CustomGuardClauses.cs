@@ -1,7 +1,8 @@
 ﻿using System;
+using Ardalis.GuardClauses;
 
 // ReSharper disable once CheckNamespace
-namespace Ardalis.GuardClauses
+namespace Scheduler.Core
 {
     public static class CustomGuardClauses
     {

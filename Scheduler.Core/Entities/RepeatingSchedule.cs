@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Scheduler.Core
+namespace Scheduler.Core.Entities
 {
     /// <summary>
     /// The RepeatingSchedule class is the base class for schedules that may generate multiple appointments.
