@@ -11,8 +11,6 @@ namespace Scheduler.Core
     /// </summary>
     public class WeeklySchedule : RepeatingSchedule
     {
-        //TODO: unit tests for WeeklySchedule
-
         private List<DayOfWeek> _days;
  
         public void SetDays(IEnumerable<DayOfWeek> days)
