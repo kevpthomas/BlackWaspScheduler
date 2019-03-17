@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bogus" Version="25.0.1" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
-    <PackageReference Include="Moq" Version="4.10.0" />
-    <PackageReference Include="Moq.AutoMock" Version="1.2.0.111" />
+    <PackageReference Include="Bogus" Version="26.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="Moq" Version="4.10.1" />
+    <PackageReference Include="Moq.AutoMock" Version="1.2.0.120" />
     <PackageReference Include="Moq.Sequences" Version="2.1.0" />
     <PackageReference Include="Shouldly" Version="3.0.2" />
     <PackageReference Include="Xbehave" Version="2.4.0" />
